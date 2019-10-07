@@ -53,11 +53,11 @@ For more Information,Read the following documents:
 * PythonDocumentation
 
 User Stories
-As a user, I would like to view different photos that interest me.
-As a user, I would like to click on a single photo to expand it and also view the details of the photo.The photo details must appear on a modalwithin the same route as the main page.
-As a user, I would like to search for different categories of photos.eg Food,
-As a user, I would like to copy a link to the photo to share with my friends.
-As a user, I would like to view photos based on the location they were taken.
+1. As a user, I would like to view different photos that interest me.
+2. As a user, I would like to click on a single photo to expand it and also view the details of the photo.The photo details must appear on a modalwithin the same route as the main page.
+3. As a user, I would like to search for different categories of photos.eg Food,
+4. As a user, I would like to copy a link to the photo to share with my friends.
+5. As a user, I would like to view photos based on the location they were taken.
 
 ## Behavior Driven Development(BDD)
 
