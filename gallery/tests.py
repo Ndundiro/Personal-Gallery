@@ -14,4 +14,11 @@ class LocationTestClass(TestCase):
     def test_save_method(self):
         self.California.save_location()
         locations = Location.objects.all()
-        self.assertTrue(len(locations) > 0)
+        self.assertTrue(len(locations) == 1)
+
+
+    
+
+
+
+    
