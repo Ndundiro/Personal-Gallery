@@ -2,59 +2,55 @@
 
 {% block content %}
 {{block.super}}
+<style>
+  .intro {
+  font-family: 'Mansalva';
+  font-size: 32px;
+    }
+</style>
 
-
+<div class="text-center intro">
+  <p>I walk, I look, I see. I photograph. <br>Welcome to my personal Gallery.</p>
+</div>
 <div class="card-columns">
 
-{% if images%}
-{% for image in images %}
-<div class="c">
- <div class="card">
-     <img src="{{image.image.url}}" height="280vh"  class="card-img-top" alt="" data-toggle="modal" data-target="#{{image.id}}">
- </div>
+  {% if images%}
+  {% for image in images %}
+  <div class="c">
+    <div class="card">
+      <img src="{{image.image.url}}" height="280vh" class="card-img-top" alt="" data-toggle="modal"
+        data-target="#{{image.id}}">
+    </div>
 
 
 
-<div class="modal fade" id="{{image.id}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-<div class="modal-dialog modal-dialog-centered" role="document">
-<div class="modal-content">
-<div class="modal-header">
- <h5 class="modal-title" id="exampleModalLongTitle">{{image.description}}</h5>
- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-   <span aria-hidden="true">&times;</span>
- </button>
-</div>
-<div class="modal-body">
- <img src="{{image.image.url}}" alt="" class="img-fluid">
- <p>{{image.description}}</p>
-</div>
-<div class="modal-footer">
-   <input class="form-control input-lg" type="text" value="{{image.image.url}}" id="{{image.id}}.url">
-<button class="btn btn-success btn-sm"  onclick="copyLink('{{image.id}}.url')">Copy</button>
+    <div class="modal fade" id="{{image.id}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">{{image.description}}</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="{{image.image.url}}" alt="" class="img-fluid">
+            <p>{{image.description}}</p>
+          </div>
+          <div class="modal-footer">
+            <input class="form-control input-lg" type="text" value="{{image.image.url}}" id="{{image.id}}.url">
+            <button class="btn btn-success btn-sm" onclick="copyLink('{{image.id}}.url')">Copy</button>
 
- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-</div>
-</div>
-</div>
-</div>
-</div>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-{% endfor %}
-{% endif %}
+  {% endfor %}
+  {% endif %}
 </div>
 
 {% endblock %}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
