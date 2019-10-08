@@ -7,7 +7,7 @@ Ndundiro Kamau
 
 Personal-gallery is a platform that allows a users to display their photos for world to see.Photos can be displayed according to  different categories and locations.
 
-## Screenshot
+
 
 ## SetUp/Installations
 1. Download the zip file of the project or Clone the repository using the following command:
@@ -59,7 +59,7 @@ User Stories
 4. As a user, I would like to copy a link to the photo to share with my friends.
 5. As a user, I would like to view photos based on the location they were taken.
 
-## Behavior Driven Development(BDD)
+
 
 ## Bugs
 There are no known bugs yet
