@@ -11,41 +11,41 @@ Personal-gallery is a platform that allows a users to display their photos for w
 
 ## SetUp/Installations
 1. Download the zip file of the project or Clone the repository using the following command:
-git clone https://github.com/Ndundiro/Personal-Gallery.git
+git clone ```https://github.com/Ndundiro/Personal-Gallery.git```
 
 Navigate to the project directory
 cd IP
 
 2. Virtual Environment
 Install virtualenv  using pip:
-python3.6 -m venv virtual
+```python3.6 -m venv virtual```
 Proceed to activate the virtual environment 
-source virtual/bin/activate
+```source virtual/bin/activate```
 
 3. Install packages/dependancies
 Install the packages in the requirements.txt file:
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 4. Create a database
 Create a new postgress database,Type the following command
 psql
 Run the following command,it creates a new database named gallery1
-#create database gallery1
+```#create database gallery1```
 
 5. Create Database migrations
 run the following command:
-python3 manage.py makemigrations gallery
+```python3 manage.py makemigrations gallery```
 followed by:
-python3 manage.py migrate
+```python3 manage.py migrate```
 
 6. Run the app
 To run the application:
-python3 manage.py runserver 
+```python3 manage.py runserver``` 
 
 Open link given in a browser http://127.0.0.1:8000/.
 
 to run tests:
-python3 manage.py test
+```python3 manage.py test```
 
 For more Information,Read the following documents:
 
@@ -79,6 +79,6 @@ There are no known bugs yet
 For any comments,suggestions,feedback or inquiries, contact me via email: ndundirokamau@gmail.com
 
 ## License
-MIT License
+[MIT License](#)
 
 Copyright © 2019 Ndundiro Kamau
