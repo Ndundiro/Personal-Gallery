@@ -17,19 +17,19 @@ Navigate to the project directory
 cd IP
 
 2. Virtual Environment
-Install virtualenv  using pip:
-```python3.6 -m venv virtual```
-Proceed to activate the virtual environment 
+Install virtualenv  using pip:  
+```python3.6 -m venv virtual```  
+Proceed to activate the virtual environment   
 ```source virtual/bin/activate```
 
-3. Install packages/dependancies
-Install the packages in the requirements.txt file:
+3. Install packages/dependancies  
+Install the packages in the requirements.txt file:  
 ```pip install -r requirements.txt```
 
 4. Create a database
-Create a new postgress database,Type the following command
-psql
-Run the following command,it creates a new database named gallery1
+Create a new postgress database,Type the following command  
+psql  
+Run the following command,it creates a new database named gallery1  
 ```#create database gallery1```
 
 5. Create Database migrations
