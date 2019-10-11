@@ -42,15 +42,15 @@ followed by:
 To run the application:
 ```python3 manage.py runserver``` 
 
-Open link given in a browser http://127.0.0.1:8000/.
+Open  the link http://127.0.0.1:8000/  in a browser.
 
-to run tests:
+7. To run tests:
 ```python3 manage.py test```
 
 For more Information,Read the following documents:
 
-* DjangoDocumentation
-* PythonDocumentation
+* [DjangoDocumentation](https://docs.djangoproject.com/en/1.11/)
+* [PythonDocumentation](https://docs.python.org/3.6/)
 
 User Stories
 1. As a user, I would like to view different photos that interest me.
