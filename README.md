@@ -33,10 +33,10 @@ Run the following command,it creates a new database named gallery1
 ```#create database gallery1```
 
 5. Create Database migrations
-run the following command:  
-* ```python3 manage.py makemigrations gallery```  
-followed by:  
-* ```python3 manage.py migrate```
+run the following command:    
+ ```python3 manage.py makemigrations gallery```  
+followed by:    
+ ```python3 manage.py migrate```
 
 6. Run the app
 To run the application:  
